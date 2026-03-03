@@ -14,3 +14,5 @@ A Calculadora Básica é uma aplicação desenvolvida em **React**, com o objeti
 A interface é composta por um visor e botões numéricos e de operações. A lógica dos cálculos é controlada por meio de estados (useState), permitindo atualizar o valor exibido na tela conforme o usuário interage com os botões.
 
 Este projeto demonstra conceitos fundamentais do React, como componentes, estados e manipulação de eventos, aplicados em uma aplicação simples e funcional.
+
+
