@@ -1,0 +1,11 @@
+FROM node:20-alpine
+
+WORKDIR /APP
+
+COPY . .
+WORKDIR /APP/calculadora
+RUN NPM INSTALL
+RUN NPM Run build
+
+EXPOSE 4173
+CMD ["NPM","RUN","PREVIEW"]
