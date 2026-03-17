@@ -5,7 +5,7 @@ WORKDIR /APP
 COPY . .
 WORKDIR /APP/calculadora
 RUN npm install
-RUN npm Run build
+RUN npm run build
 
 EXPOSE 4173
 CMD ["npm","run","preview"]
