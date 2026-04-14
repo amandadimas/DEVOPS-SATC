@@ -21,9 +21,17 @@ export default function App() {
     width: "100%",
     height: "100vh",
     display: "flex",
+    flexDirection: "column",
     justifyContent: "center",
     alignItems: "center",
     backgroundColor: "#dcdcdc",
+  };
+
+  const estiloNome = {
+    marginBottom: "15px",
+    fontSize: "24px",
+    fontWeight: "bold",
+    color: "#333",
   };
 
   const estiloCalculadora = {
@@ -61,6 +69,8 @@ export default function App() {
 
   return (
     <div style={estiloContainer}>
+      <div style={estiloNome}>Amanda Dimas Pessoa</div>
+
       <div style={estiloCalculadora}>
         <div style={estiloDisplay}>{valor || "0"}</div>
 
